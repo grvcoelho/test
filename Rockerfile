@@ -1,0 +1,5 @@
+FROM node:8.1.2-alpine
+
+MOUNT .:/src
+
+RUN echo Hello World > /src/hello.txt
