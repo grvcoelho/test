@@ -1,5 +1,5 @@
 FROM node:8.1.2-alpine
 
-MOUNT .:/src
+MOUNT {{ .RepositoryPath }}:/src
 
 RUN echo Hello World > /src/hello.txt
