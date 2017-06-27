@@ -5,12 +5,12 @@ module.exports = {
 
 function hello (event, context, callback) {
   callback(null, {
-    message: "Hello World by Deployer!"
+    message: "===> Hello World by Deployer!"
   })
 }
 
 function fizz (event, context, callback) {
   callback(null, {
-    message: "Fizz Buzz by Deployer!"
+    message: "===> Fizz Buzz by Deployer!"
   })
 }
