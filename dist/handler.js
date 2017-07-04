@@ -1,8 +1,12 @@
 const Credstash = require('nodecredstash')
 
+const VERSION = 3
+
 process.env.STAGE = 'sandbox'
 
 function hello (event, context, callback) {
+  console.log('VERSION', VERSION)
+
   const credstash = new Credstash({
     table: 'credential-store',
     awsOpts: { region: 'us-east-1' }
