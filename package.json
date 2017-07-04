@@ -14,7 +14,10 @@
     "log4js": "^1.1.1",
     "moment": "^2.18.1",
     "node-boleto": "^2.0.2",
-    "nodecredstash": "^1.1.0"
+    "nodecredstash": "^1.1.0",
+    "pg": "^6.4.0",
+    "ramda": "^0.24.1",
+    "sequelize": "^4.2.1"
   },
   "devDependencies": {},
   "scripts": {
