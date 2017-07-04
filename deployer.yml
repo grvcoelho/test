@@ -1,0 +1,25 @@
+---
+
+scm:
+  type: git
+  repository: git@github.com:grvcoelho/test.git
+
+build:
+  type: rocker
+
+deploy:
+  type: lambda
+  region: us-east-1
+  project_name: deployer
+  s3_bucket: superbowleto-deploy-xc18
+  package:
+    - dist
+    - node_modules
+  functions:
+    - hello
+
+environments:
+  sandbox:
+    name: sandbox
+  live:
+    name: live
