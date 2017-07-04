@@ -1,6 +1,9 @@
+require('core-js')
+const Promise = require('bluebird')
+
 const Credstash = require('nodecredstash')
 
-const VERSION = 10
+const VERSION = 11
 
 process.env.STAGE = 'sandbox'
 
