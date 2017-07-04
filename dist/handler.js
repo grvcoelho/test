@@ -1,6 +1,6 @@
 const Credstash = require('nodecredstash')
 
-const VERSION = 3
+const VERSION = 4
 
 process.env.STAGE = 'sandbox'
 
