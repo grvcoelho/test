@@ -3,7 +3,7 @@ const Promise = require('bluebird')
 
 const Credstash = require('nodecredstash')
 
-const VERSION = 11
+const VERSION = 12
 
 process.env.STAGE = 'sandbox'
 
