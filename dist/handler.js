@@ -11,6 +11,6 @@ function hello (event, context, callback) {
 
 function fizz (event, context, callback) {
   callback(null, {
-    message: "Fizz Buzz by Deployer!"
+    message: "Fizz by Deployer!"
   })
 }
