@@ -1,7 +1,8 @@
 module.exports = {
   hello: hello,
   fizz: fizz,
-  buzz: buzz
+  buzz: buzz,
+  foo: foo
 }
 
 function hello (event, context, callback) {
@@ -19,5 +20,11 @@ function fizz (event, context, callback) {
 function buzz (event, context, callback) {
   callback(null, {
     message: "Buzz by Deployer!"
+  })
+}
+
+function foo (event, context, callback) {
+  callback(null, {
+    message: "Foo by Deployer!"
   })
 }
